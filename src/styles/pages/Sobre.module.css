@@ -1,0 +1,23 @@
+.sobreContainer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.bioImg {
+    width: 40%;
+}
+
+.bioContainer {
+    width: 40%;
+}
+
+.bioTitle {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.bioText {
+    text-align: justify;
+}
