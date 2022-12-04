@@ -1,7 +1,9 @@
+import { useState } from "react";
 import { Header } from "../components/Header";
+import { database } from "../services/firebase";
 import contatoImg from "../assets/contato.svg";
 import styles from "../styles/pages/Contato.module.css";
-import { useState } from "react";
+import { ref, push, set } from "firebase/database";
 
 export const Contato = () => {
 //estados armazenam dados do input, através do 'handle'
@@ -21,10 +23,26 @@ export const Contato = () => {
 
     function createMessage(event) {
         event.preventDefault();    //previne comportamento padrão de recarregar página
-       
-        console.log('Nome: ', name);
-        console.log('E-mail: ', email);
-        console.log('Mensagem: ', message);
+        
+        //mostra no console
+        // console.log('Nome: ', name);
+        // console.log('E-mail: ', email);
+        // console.log('Mensagem: ', message);
+
+        //envia para o firebase
+
+        //dentro do firebase, cria uma tabela de mensagens:
+        const messageListRef = ref(database, 'mensagens');
+
+        //dentro da tabela de mensagens, crie uma nova mensagem:
+        const newMessageRef = push(messageListRef);
+
+        //'seta' o que vai em cada mensagem
+        set(newMessageRef, {
+            nome: name,
+            email: email,
+            texto: message
+        });
 
         setName('');
         setEmail('');
