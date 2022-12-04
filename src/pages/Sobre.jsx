@@ -9,7 +9,7 @@ export const Sobre = () => {
             <Header title="Sobre mim" image={sobreImg}/>
 
             <div className={styles.sobreContainer}>
-                <img className={styles.bioImg} src={minhaImg} alt="Foto de Luísa, com tranças e sorrindo" />
+                <img className={styles.bioImg} src={minhaImg} alt="imagem de avatar em gif acenando, com tranças e sorrindo" />
                 <div className={styles.bioContainer}>
                     <h2 className={styles.bioTitle}>Luísa Paim, prazer!</h2>
                     <p className={styles.bioText}>Sou baiana, metade soteropolitana e metade candeiense. Tenho 26 anos e sou Bacharela em Ciência e Tecnologia. Atuava na área comercial, mas escolhi mudar de carreira e me tornar Desenvolvedora. 
