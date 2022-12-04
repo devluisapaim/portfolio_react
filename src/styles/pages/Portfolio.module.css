@@ -1,11 +1,50 @@
-.projectsContainer {}
+.projectsContainer {
+    width: 100%;
+    color: #85c1e9;
+    text-align: center;
+    padding: 4rem 0 2rem;
+}
 
-.projectsTitle {}
+.projectsTitle {
+    font-size: 3.5rem;
+}
 
-.cardsRepoContainer {}
+.cardsRepoContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
 
-.cardRepo {}
+    margin: 0 auto;
+    width: 80%;
+    padding: 2rem;
+}
 
-.cardRepoText {}
+.cardRepo {
+    background-color: #85c1e9;
+    color: #fff;
 
-.cardRepoLink {}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+    width: 30%;
+    height: 250px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+/* .cardRepoText {}
+*/
+.cardRepoLink {
+    color: #3498db;
+    transition: 0.7s;
+}
+.cardRepoLink:hover {
+    color: #fff;
+}
+/* 85c1e9
+3498db */

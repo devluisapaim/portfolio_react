@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { ArrowSquareOut } from "phosphor-react";
 import { Header } from "../components/Header";
-import styles from "../styles/pages/portfolio.module.css";
+import styles from "../styles/pages/Portfolio.module.css";
 import portfolioImg from "../assets/portfolio.svg";
 
 
@@ -25,7 +25,7 @@ export const Portfolio = () => {
             <Header title="Meus projetos" image={portfolioImg}/>
 
             <div className={styles.projectsContainer}>
-                <h2 className={styles.projecsTitle}>Projetos no meu Github</h2>
+                <h2 className={styles.projectsTitle}>Projetos no meu Github</h2>
                 <div className={styles.projectsContainer}>
                     <div className={styles.cardsRepoContainer}>
                         {repositories.map(repo => 
@@ -44,3 +44,26 @@ export const Portfolio = () => {
     );
 };
 
+
+
+/* FAVORITOS
+
+      <div className={styles.projectsContainer}>
+        <h2 className={styles.projectsTitle}>Favoritos</h2>
+        <div className={styles.cardsContainer}>
+          {list.map(repo => {
+            return(
+              <div className={styles.card} key={repo.id}>
+                <h1>{repo.nome}</h1>
+                <img className={styles.cardImage} src={repo.imagem} />
+                <p className={styles.cardText}>{repo.descricao}</p>
+                <a className={styles.cardLink}href={repo.link} target="_blank" rel="noreferrer">
+                  Ver projeto
+                </a>
+              </div>
+            )
+          })}
+        </div>
+      </div>
+      
+*/
