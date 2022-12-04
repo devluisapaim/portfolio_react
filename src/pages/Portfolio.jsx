@@ -4,6 +4,7 @@ import { ArrowSquareOut } from "phosphor-react";
 import { Header } from "../components/Header";
 import styles from "../styles/pages/Portfolio.module.css";
 import portfolioImg from "../assets/portfolio.svg";
+import { listFavorites } from "../services/listFavorites";
 
 
 export const Portfolio = () => {
@@ -23,9 +24,27 @@ export const Portfolio = () => {
     return(
         <>
             <Header title="Meus projetos" image={portfolioImg}/>
+            
+            <div className={styles.projectsContainer}>
+              <h2 className={styles.projectsTitle}>Projetos Favoritos</h2>
+              <div className={styles.cardsContainer}>
+                {listFavorites.map(fav => {
+                  return(
+                    <div className={styles.card} key={fav.id}>
+                      <h1 className={styles.cardTitle}>{fav.name}</h1>
+                      <img className={styles.cardImage} src={fav.image} />
+                      <p className={styles.cardText}>{fav.description}</p>
+                      <a className={styles.cardLink}href={fav.link} target="_blank" rel="noreferrer">
+                        Ver projeto
+                      </a>
+                    </div>
+                  )
+                })}
+              </div>
+            </div>
 
             <div className={styles.projectsContainer}>
-                <h2 className={styles.projectsTitle}>Projetos no meu Github</h2>
+                <h2 className={styles.projectsTitle}>Outros projetos no meu Github</h2>
                 <div className={styles.projectsContainer}>
                     <div className={styles.cardsRepoContainer}>
                         {repositories.map(repo => 
@@ -48,22 +67,8 @@ export const Portfolio = () => {
 
 /* FAVORITOS
 
-      <div className={styles.projectsContainer}>
-        <h2 className={styles.projectsTitle}>Favoritos</h2>
-        <div className={styles.cardsContainer}>
-          {list.map(repo => {
-            return(
-              <div className={styles.card} key={repo.id}>
-                <h1>{repo.nome}</h1>
-                <img className={styles.cardImage} src={repo.imagem} />
-                <p className={styles.cardText}>{repo.descricao}</p>
-                <a className={styles.cardLink}href={repo.link} target="_blank" rel="noreferrer">
-                  Ver projeto
-                </a>
-              </div>
-            )
-          })}
-        </div>
-      </div>
+
+
+
       
 */
