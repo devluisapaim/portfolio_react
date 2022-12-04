@@ -1,6 +1,6 @@
 .projectsContainer {
     width: 100%;
-    color: #85c1e9;
+    color: #3498db;
     text-align: center;
     padding: 4rem 0 2rem;
 }
@@ -22,7 +22,7 @@
 }
 
 .cardRepo {
-    background-color: #85c1e9;
+    background-color: #3498db;
     color: #fff;
 
     display: flex;
@@ -40,7 +40,7 @@
 /* .cardRepoText {}
 */
 .cardRepoLink {
-    color: #3498db;
+    color: #fff;
     transition: 0.7s;
 }
 .cardRepoLink:hover {

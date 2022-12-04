@@ -24,7 +24,7 @@
 }
 
 .formButton {
-    background-color: #85c1e9;
+    background-color: #3498db;
     border: none;
     color: #fff;
     
@@ -40,5 +40,5 @@
 }
 
 .formButton:hover {
-    background-color: #3498db;
-}
+    background-color: #2e86c1; 
+} /*mesmo tom das imagens*/

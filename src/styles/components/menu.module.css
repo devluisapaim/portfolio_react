@@ -14,12 +14,12 @@
 .menuLink {
     text-decoration: none;
     font-size: 1.8rem;
-    color:  #85c1e9;
+    color:  #3498db;
 }
 
 .menuLink:hover {
-    color:  #3498db;
-}      /*mesmo tom das imagens*/
+    color:  #2874a6;
+}      
 
 @media(max-width: 765px) {
     .menuContainer {
