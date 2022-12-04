@@ -1,6 +1,7 @@
 # Projeto Guiado - ReactJS🚀 
 
-![image](https://media.giphy.com/media/IMoE5c8xaqaC75OacV/giphy.gif)
+![image](/src/assets/readme.gif)
+<!-- ![image](https://media.giphy.com/media/IMoE5c8xaqaC75OacV/giphy.gif) -->
 
 ---
 
