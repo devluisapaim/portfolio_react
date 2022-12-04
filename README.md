@@ -1,6 +1,6 @@
 # Projeto Guiado - ReactJS🚀 
 
-![image](https://media2.giphy.com/media/D567hs4Dex0GEnAKOY/giphy.gif)
+![image](https://media.giphy.com/media/IMoE5c8xaqaC75OacV/giphy.gif)
 
 ---
 
@@ -112,4 +112,4 @@ _Foi incrível compartilhar essa jornada com você! Qualquer dúvida ou sugestã
 - [quero ser dev](https://queroserdev.com) -->
 
 <br>
-Feito com 💜 por Simara Conceição
+Feito com 💜 por Luísa Paim.
