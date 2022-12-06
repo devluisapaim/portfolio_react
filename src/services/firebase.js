@@ -12,19 +12,19 @@ import { getDatabase } from 'firebase/database';
 
 const firebaseConfig = {
 
-  apiKey: "AIzaSyC8Y3kR26pK8CShXuA5qXmYZkkWzQ3MjOg",
+  apiKey: import.meta.env.VITE_API_KEY,
 
-  authDomain: "projfinal-react-portfolio.firebaseapp.com",
+  authDomain: import.meta.env.VITE_AUTH_DOMAIN,
 
-  projectId: "projfinal-react-portfolio",
+  projectId: import.meta.env.VITE_PROJECT_ID,
 
-  storageBucket: "projfinal-react-portfolio.appspot.com",
+  storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
 
-  messagingSenderId: "497485803892",
+  messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
 
-  appId: "1:497485803892:web:e936ba3e40a2a50d617c21",
+  appId: import.meta.env.VITE_APP_ID,
 
-  databaseURL: "https://projfinal-react-portfolio-default-rtdb.firebaseio.com/"
+  databaseURL: import.meta.env.VITE_DATABASE_URL
 };
 
 
