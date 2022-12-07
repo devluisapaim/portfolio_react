@@ -106,7 +106,7 @@ _Foi incrível compartilhar essa jornada com você! Qualquer dúvida ou sugestã
 - [youtube](https://www.youtube.com/queroserdev)
 - [instagram](https://www.instagram.com/simara_conceicao) -->
 - [linkedin](https://www.linkedin.com/in/luisacristinaferreira/)
-- [github](https://github.com/devluisapaimm)
+- [github](https://github.com/devluisapaim)
 <!-- - [spotify](https://open.spotify.com/show/59vCz4TY6tPHXW26qJknh3)
 - [quero ser dev](https://queroserdev.com) -->
 
