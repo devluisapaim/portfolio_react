@@ -26,7 +26,7 @@
 * Deploy.
 <!-- * Deploy e configuração para evitar o erro 404 -->
 
-O site já está no ar e você pode acessar aqui: [Meu site pessoal](https://site-pessoal-react-eight.vercel.app/)
+O site já está no ar e você pode acessar aqui: [Meu site pessoal](https://site-luisapaim.vercel.app/)
 
 ---
 
