@@ -47,7 +47,7 @@ O objetivo era criar um site usando ReactJS, onde eu pudesse me apresentar e enr
 | `Module CSS` | Ferramenta para ter mais produtividade ao estilizar a aplicação|
 | `Phosphor` | Dependência com icones super legais|
 | `React router dom` | Dependência para criar rotas no reactjs|
-<!-- | `Axios` | Dependência para consumir api| -->
+| `Axios` | Dependência para consumir api|
 | `Vercel` | Hospedagem para a aplicação, fiz o deploy integrado com o github|
 | `Github` | Hospedagem do código fonte integrado com gerenciador de versionamento|
 
@@ -55,7 +55,7 @@ O objetivo era criar um site usando ReactJS, onde eu pudesse me apresentar e enr
 <br />
 <br />
 
-<!-- ### `Como rodar o projeto localmente`
+### `Como rodar o projeto localmente`
 
 Siga os passos e inclua as informações abaixo:
 
@@ -80,15 +80,15 @@ Siga os passos e inclua as informações abaixo:
 <br />
 <br />
 
-### 😎 Próximos passos mapeados
+<!-- ### 😎 Próximos passos mapeados
 
 - Incluir Testes
 - Revisar acessibilidade
 - Revisar responsividade
 
 <br />
-<br />
---- -->
+<br /> -->
+
 
 _Foi incrível compartilhar essa jornada com você! Qualquer dúvida ou sugestão, chama no contatinho!_
 
