@@ -23,8 +23,7 @@
 * Como usar css no reactjs;
 * Como criar rotas no reactjs - react router dom;
 * Implementação de formulário com dados coletados e armazenados no Firebase;
-* Deploy.
-<!-- * Deploy e configuração para evitar o erro 404 -->
+* Deploy, no Vercel, e configuração para evitar o erro 404.
 
 O site já está no ar e você pode acessar aqui: [Meu site pessoal](https://site-luisapaim.vercel.app/)
 
