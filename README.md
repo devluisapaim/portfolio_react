@@ -82,7 +82,7 @@ Siga os passos e inclua as informações abaixo:
 ### 😎 Próximos passos mapeados
 
 - Revisar acessibilidade;
-- Incluir página de certificados (estilizado com Carrossel do Bootstrap).
+<!-- - Incluir página de certificados (estilizado com Carrossel do Bootstrap). -->
 
 <br />
 <br />
