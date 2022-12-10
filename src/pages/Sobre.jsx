@@ -15,10 +15,10 @@ export const Sobre = () => {
                     <h2 className={styles.bioTitle}>Luísa Paim, prazer!</h2>
                     <p className={styles.bioText}>Sou baiana, metade soteropolitana e metade candeiense. Tenho 26 anos e sou Bacharela em Ciência e Tecnologia. Atuava na área comercial, mas escolhi mudar de carreira e me tornar Desenvolvedora. 
                     Encontrei no Frontend um mundo de possibilidades, e hoje me decido a estudar JavaScript e ReactJS visando uma primeira oportunidade profissional na área Tech. <br/>
-                    
-                    <a><Link className={styles.bioCertificados} to="/certificados">Certificados</Link></a>
                     </p>
+                    <a><Link className={styles.bioCertificados} to="/certificados">Certificados</Link></a>
                 </div>
+
             </div>
         </>
     );

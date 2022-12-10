@@ -1,25 +1,33 @@
 import { listCertificates } from "../services/listCertificates";
 import styles from "../styles/pages/Certificados.module.css";
+import { Header } from "../components/Header";
+import certificateImg from "../assets/certificate.svg";
 
 export const Certificados = () => {
     
     return(
-        <div className={styles.container}>
-            {listCertificates.map(certificate => {
-                return(
-                    <div className={styles.card} key={certificate.id}>
-                        <h1 className={styles.cardName}>{certificate.name}</h1>
-                        <a className={styles.cardLink} href={certificate.linkCertificate}>
-                            <img className={styles.cardImage} src={certificate.img} />
-                        </a>
-                        <p className={styles.cardDescription}>{certificate.description}</p>
-                        <p className={styles.cardDescription}>{certificate.date}</p>
-                        <p className={styles.cardDescription}>{certificate.duration}</p>
-                    </div>
-                );
-            })}
 
-        </div>
+        <>
+          <Header title="Certificados" image={certificateImg}/>
+
+          <div className={styles.container}>
+            {/* <div className={styles.cardContainer}> */}
+              {listCertificates.map(certificate => {
+                  return(
+                      <div className={styles.card} key={certificate.id}>
+                          <h1 className={styles.cardName}>{certificate.name}</h1>
+                          <a className={styles.cardLink} href={certificate.linkCertificate} target="_blank">
+                              <img className={styles.cardImage} src={certificate.img} />
+                          </a>
+                          <p className={styles.cardDescription}>{certificate.description}</p>
+                          {/* <p className={styles.cardDuration}>{certificate.duration}</p> */}
+                      </div>
+                  );
+              })}
+            {/* </div> */}
+          </div>
+        
+        </>
     );
 };
 
