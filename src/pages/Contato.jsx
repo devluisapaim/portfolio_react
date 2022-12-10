@@ -4,6 +4,7 @@ import { database } from "../services/firebase";
 import contatoImg from "../assets/contato.svg";
 import styles from "../styles/pages/Contato.module.css";
 import { ref, push, set } from "firebase/database";
+import contatoIcon from "../assets/undraw_chat-text.svg";
 
 export const Contato = () => {
 //estados armazenam dados do input, através do 'handle'
@@ -54,6 +55,7 @@ export const Contato = () => {
             <Header title="Contato" image={contatoImg}/>
         <div>
             <form className={styles.form} onSubmit={createMessage}>
+                <h2 className={styles.formTitle}>Chama no contatinho! <img className={styles.formTitleIcon} src={contatoIcon} alt="" /></h2>
                 <input onChange={handleInputName} className={styles.formInput} placeholder="Digite seu nome" type="text" value={name}/>
                 <input onChange={handleInputEmail} className={styles.formInput} placeholder="Digite seu e-mail" type="email" value={email} />
                 <textarea onChange={handleInputMessage} className={styles.formTextArea} placeholder="Digite sua mensagem" name="" id="" value={message} ></textarea>

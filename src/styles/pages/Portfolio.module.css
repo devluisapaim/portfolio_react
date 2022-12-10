@@ -90,3 +90,12 @@
 /* 85c1e9
 3498db 
 #2874a6 */
+
+@media (max-width: 765px) {
+    .cardsContainer, .cardsRepoContainer {
+        flex-direction: column;
+    }
+    .card, .cardRepo {
+        width: 100%;
+    }
+}

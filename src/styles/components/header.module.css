@@ -23,4 +23,7 @@
     .headerImage {
         width: 100%;
     }
+    .headerTitle {
+        text-align: center;
+    }
 }

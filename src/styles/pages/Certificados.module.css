@@ -26,8 +26,8 @@
     font-size: 1.2rem;
 }
 
-.cardLink {
-}
+/* .cardLink {
+} */
 
 .cardImage {
     width: 300px;
@@ -48,5 +48,8 @@
 @media (max-width: 765px) {
     .container {
         flex-direction: column;
+    }
+    .card {
+        width: 85%;
     }
 }

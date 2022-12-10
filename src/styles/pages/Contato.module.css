@@ -14,6 +14,14 @@
     border-radius: 4px;
 }
 
+.formTitle {
+    margin-bottom: 2rem;
+}
+
+.formTitleIcon {
+    width: 8%;
+}
+
 .formInput, .formTextArea {
     width: 80%;
     padding: 12px 32px;
@@ -42,3 +50,4 @@
 .formButton:hover {
     background-color: #2e86c1; 
 } /*mesmo tom das imagens*/
+
