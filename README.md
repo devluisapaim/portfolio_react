@@ -79,14 +79,13 @@ Siga os passos e inclua as informações abaixo:
 <br />
 <br />
 
-<!-- ### 😎 Próximos passos mapeados
+### 😎 Próximos passos mapeados
 
-- Incluir Testes
-- Revisar acessibilidade
-- Revisar responsividade
+- Revisar acessibilidade;
+- Incluir página de certificados (estilizado com Carrossel do Bootstrap).
 
 <br />
-<br /> -->
+<br />
 
 
 _Foi incrível compartilhar essa jornada com você! Qualquer dúvida ou sugestão, chama no contatinho!_
