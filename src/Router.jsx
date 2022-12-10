@@ -5,6 +5,7 @@ import { Sobre } from "./pages/Sobre";
 import { Portfolio } from "./pages/Portfolio";
 import { Contato } from "./pages/Contato";
 import { Footer } from "./components/Footer";
+import { Certificados } from "./pages/Certificados";
 
 export function Router() {
     return(
@@ -15,6 +16,7 @@ export function Router() {
                 <Route path="/sobre" element={<Sobre />} />
                 <Route path="/portfolio" element={<Portfolio />} />
                 <Route path="/contato" element={<Contato />} />
+                <Route path="/certificados" element={<Certificados />} />
             </Routes>
             <Footer />
         </BrowserRouter>
