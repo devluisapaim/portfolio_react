@@ -26,7 +26,7 @@
 * Deploy, no Vercel, e configuração para evitar o erro 404;
 * Responsivo para celular e tablet.
 
-O site já está no ar e você pode acessar aqui: [Meu site pessoal](https://site-luisapaim.vercel.app/)
+O site já está no ar e você pode acessar aqui: [Meu site pessoal!](https://site-luisapaim.vercel.app/)
 
 ---
 
@@ -83,11 +83,11 @@ Siga os passos e inclua as informações abaixo:
 <!--### 😎 Próximos passos mapeados
 
 - Revisar acessibilidade;
-- Incluir página de certificados (estilizado com Carrossel do Bootstrap). -->
+- Incluir página de certificados (estilizado com Carrossel do Bootstrap). 
 
 <br />
 <br />
-
+-->
 
 _Foi incrível compartilhar essa jornada com você! Qualquer dúvida ou sugestão, chama no contatinho!_
 
